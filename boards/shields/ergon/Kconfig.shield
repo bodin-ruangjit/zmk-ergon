@@ -1,0 +1,10 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+#
+# Modifications Copyright (c) 2024 Bodin Ruangjit
+
+config SHIELD_ERGON_LEFT
+    def_bool $(shields_list_contains,ergon_left)
+
+config SHIELD_ERGON_RIGHT
+    def_bool $(shields_list_contains,ergon_right)
