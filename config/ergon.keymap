@@ -20,13 +20,13 @@
 // ├───────┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┐      └──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴─────┤
 // │   SHIFT  │  Z  │  X  │  C  │  V  │  B  │         │  N  │  M  │  ,  │  .  │  SHIFT │
 // └──────────┴─┬───┴──┬──┴────┬┴─────┴──┬──┘      ┌──┴─────┼─────┴─┬───┴─┬───┴────────┘
-//              │  ALT │  GUI  │  GLOBE  │         │  SPACE │  CTRL │ L-3 │
+//              │  ALT │  GUI  │  SPACE  │         │  SPACE │  CTRL │ L-3 │
 //              └──────┴───────┴─────────┘         └────────┴───────┴─────┘
                         bindings = <
    &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T       &kp Y     &kp U     &kp I     &kp O   &kp P   &kp BSPC
    &mo 1      &kp A   &kp S   &kp D   &kp F   &kp G       &kp H     &kp J     &kp K     &kp L   &mo 2   &kp RET
    &kp LSHFT  &kp Z   &kp X   &kp C   &kp V   &kp B       &kp N     &kp M     &kp COMMA &kp DOT &kp RSHFT
-                      &kp LALT  &kp LGUI  &kp GLOBE       &kp SPACE &kp RCTRL &mo 3
+                      &kp LALT  &kp LGUI  &kp SPACE       &kp SPACE &kp RCTRL &mo 3
                         >;
                 };
 
@@ -38,13 +38,13 @@
 // ├───────┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┐      └──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴─────┤
 // │          │     │PRTSC│SCRLK│PAUSE│  ¥  │         │  .  │  1  │  2  │  3  │   /    │
 // └──────────┴─┬───┴──┬──┴────┬┴─────┴──┬──┘      ┌──┴─────┼─────┴─┬───┴─┬───┴────────┘
-//              │      │       │         │         │    0   │       │     │
+//              │      │       │    0    │         │    0   │       │     │
 //              └──────┴───────┴─────────┘         └────────┴───────┴─────┘
                         bindings = <
    &trans  &kp ESC   &kp INS    &kp HOME  &kp PG_UP       &kp PRCNT         &kp PLUS   &kp N7  &kp N8  &kp N9  &kp KP_ASTERISK  &trans
    &trans  &kp CAPS  &kp DEL    &kp END   &kp PG_DN       &kp DLLR          &kp MINUS  &kp N4  &kp N5  &kp N6  &trans           &trans
    &trans  &trans    &kp PSCRN  &kp SLCK  &kp PAUSE_BREAK &kp INT_YEN       &kp DOT    &kp N1  &kp N2  &kp N3  &kp FSLH
-                                        &trans   &trans   &trans            &kp N0     &trans  &trans
+                                        &trans   &trans   &kp N0            &kp N0     &trans  &trans
                         >;
                 };
 
@@ -56,13 +56,13 @@
 // ├───────┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┐      └──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴─────┤
 // │          │  (  │  )  │  {  │  }  │  |  │         │  ?  │  &  │     │     │        │
 // └──────────┴─┬───┴──┬──┴────┬┴─────┴──┬──┘      ┌──┴─────┼─────┴─┬───┴─┬───┴────────┘
-//              │      │       │         │         │    _   │       │     │
+//              │      │       │    _    │         │    _   │       │     │
 //              └──────┴───────┴─────────┘         └────────┴───────┴─────┘
                         bindings = <
    &trans  &kp EXCL  &kp AT   &kp HASH  &kp GRAVE &kp TILDE     &kp CARET  &kp SQT   &kp UP    &kp DQT   &trans  &trans
    &trans  &kp LBKT  &kp RBKT &kp COLON &kp SEMI  &kp BSLH      &kp EQUAL  &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans
    &trans  &kp LPAR  &kp RPAR &kp LBRC  &kp RBRC  &kp PIPE      &kp QMARK  &kp AMPS  &trans    &trans    &trans
-                                &trans   &trans   &trans        &kp UNDER  &trans    &trans
+                                &trans   &trans   &kp UNDER     &kp UNDER  &trans    &trans
                         >;
                 };
 
