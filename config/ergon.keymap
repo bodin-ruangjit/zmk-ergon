@@ -54,14 +54,14 @@
 // ├─────┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┐       └─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬─────┤
 // │       │  [  │  ]  │  :  │  ;  │  \  │         │  =  │LEFT │DOWN │RIGHT│     │     │
 // ├───────┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┐      └──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴─────┤
-// │          │  (  │  )  │  {  │  }  │  |  │         │  ?  │  &  │     │     │        │
+// │          │  (  │  )  │  {  │  }  │  |  │         │  &  │  ?  │     │     │        │
 // └──────────┴─┬───┴──┬──┴────┬┴─────┴──┬──┘      ┌──┴─────┼─────┴─┬───┴─┬───┴────────┘
 //              │      │       │    _    │         │    _   │       │     │
 //              └──────┴───────┴─────────┘         └────────┴───────┴─────┘
                         bindings = <
    &trans  &kp EXCL  &kp AT   &kp HASH  &kp GRAVE &kp TILDE     &kp CARET  &kp SQT   &kp UP    &kp DQT   &trans  &trans
    &trans  &kp LBKT  &kp RBKT &kp COLON &kp SEMI  &kp BSLH      &kp EQUAL  &kp LEFT  &kp DOWN  &kp RIGHT &trans  &trans
-   &trans  &kp LPAR  &kp RPAR &kp LBRC  &kp RBRC  &kp PIPE      &kp QMARK  &kp AMPS  &trans    &trans    &trans
+   &trans  &kp LPAR  &kp RPAR &kp LBRC  &kp RBRC  &kp PIPE      &kp AMPS  &kp QMARK  &trans    &trans    &trans
                                 &trans   &trans   &kp UNDER     &kp UNDER  &trans    &trans
                         >;
                 };
